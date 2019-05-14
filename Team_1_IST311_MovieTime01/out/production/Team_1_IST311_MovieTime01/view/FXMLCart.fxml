@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?scenebuilder-background-color 0xbaff99ff?>
+<!--@author jxr5525-->
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+<AnchorPane id="AnchorPane" prefHeight="407.9998779296875" prefWidth="600.0"
+            xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+    <children>
+        <TextField layoutX="157.0" layoutY="141.0" prefHeight="24.0" prefWidth="115.0" text="8"/>
+        <Label layoutX="286.0" layoutY="146.0" text="Quanity"/>
+        <Label layoutX="286.0" layoutY="223.0" text="Quanity"/>
+        <TextField layoutX="157.0" layoutY="223.0" prefHeight="24.0" prefWidth="115.0" text="9"/>
+        <Label layoutX="85.0" layoutY="146.0" text="POPCORN" textFill="#006299"/>
+        <Label layoutX="86.0" layoutY="227.0" text="SODA" textFill="#3385ff"/>
+        <Label layoutX="85.0" layoutY="308.0" text="TOTAL" textFill="BLACK"/>
+        <TextField layoutX="157.0" layoutY="304.0" prefHeight="24.0" prefWidth="115.0"
+                   text="23.87"/>
+        <Label layoutX="286.0" layoutY="315.0" text=""/>
+        <Label layoutX="435.0" layoutY="145.0" text="Subtotal"/>
+        <TextField layoutX="492.0" layoutY="138.0" prefHeight="24.0" prefWidth="64.68243408203125"
+                   text="14.87"/>
+        <Label layoutX="478.0" layoutY="154.0" text=""/>
+        <Label layoutX="435.0" layoutY="227.0" text="Subtotal"/>
+        <TextField layoutX="492.0" layoutY="223.0" prefHeight="24.0" prefWidth="65.0" text="9.00"/>
+        <Label layoutX="149.0" layoutY="308.0" prefWidth="14.999900000002526" text="\$"/>
+        <Text fill="#009962" layoutX="191.0" layoutY="78.0" scaleX="1.9850351416496523"
+              scaleY="4.007342138510048" strokeType="OUTSIDE" strokeWidth="0.0"
+              text="ITEMS IN CARTS" underline="true"/>
+        <Text fontSmoothingType="LCD" layoutX="85.0" layoutY="119.0" smooth="true"
+              strikethrough="false" strokeType="OUTSIDE" strokeWidth="0.0" text="List of Item"/>
+        <Text layoutX="85.0" layoutY="135.0" scaleX="0.9938197569260632" scaleY="0.9999923519334313"
+              strokeType="OUTSIDE" strokeWidth="0.0"
+              text="_______________________________________________________________________________________________"/>
+        <Text layoutX="83.0" layoutY="301.0" scaleX="0.9938197569260632" scaleY="0.9999923519334313"
+              strokeType="OUTSIDE" strokeWidth="0.0"
+              text="_______________________________________________________________________________________________"/>
+        <ImageView id="240_F_117900199_B5ggbhVnWtsrw1RIBsgCHsk2KQaX9R9A" fitHeight="45.0"
+                   fitWidth="56.0" layoutX="87.0" layoutY="55.0" pickOnBounds="true">
+            <image>
+                <Image url="@../../../../Desktop/240_F_117900199_B5ggbhVnWtsrw1RIBsgCHsk2KQaX9R9A.jpg"
+                       preserveRatio="true" smooth="true"/>
+            </image>
+        </ImageView>
+        <ImageView id="a209-512" fitHeight="100.0" fitWidth="84.46206665039062" layoutX="14.0"
+                   layoutY="122.0" pickOnBounds="true">
+            <image>
+                <Image url="@../../../../Desktop/a209-512.png" preserveRatio="true" smooth="true"/>
+            </image>
+        </ImageView>
+        <ImageView id="a1141-512" fitHeight="100.0" fitWidth="84.46206665039062" layoutX="14.0"
+                   layoutY="208.0" pickOnBounds="true">
+            <image>
+                <Image url="@../../../../Desktop/a1141-512.png" preserveRatio="true" smooth="true"/>
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

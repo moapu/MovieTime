@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" id="AnchorPane" prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/8.0.141">
+    <children>
+        <ImageView layoutX="62.0" layoutY="317.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="110.0" layoutY="317.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="206.0" layoutY="317.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="346.0" layoutY="317.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="394.0" layoutY="317.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="442.0" layoutY="317.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="490.0" layoutY="317.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="538.0" layoutY="317.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="14.0" layoutY="266.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="62.0" layoutY="266.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="110.0" layoutY="266.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="158.0" layoutY="266.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="206.0" layoutY="266.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="394.0" layoutY="266.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="490.0" layoutY="266.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="538.0" layoutY="266.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="346.0" layoutY="266.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="14.0" layoutY="214.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="62.0" layoutY="215.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="110.0" layoutY="215.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="158.0" layoutY="215.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="206.0" layoutY="215.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="346.0" layoutY="215.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="394.0" layoutY="215.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="442.0" layoutY="215.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="490.0" layoutY="215.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="538.0" layoutY="215.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="14.0" layoutY="165.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="158.0" layoutY="165.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="206.0" layoutY="165.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="394.0" layoutY="165.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="538.0" layoutY="165.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="346.0" layoutY="165.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="96.0" fitWidth="281.0" layoutX="152.0" layoutY="23.0">
+            <image>
+                <Image url="@images/Screen_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView layoutX="14.0" layoutY="317.0">
+            <image>
+                <Image url="@images/seat_image.png"/>
+            </image>
+        </ImageView>
+        <Label layoutX="466.0" layoutY="6.0" prefHeight="10.0" prefWidth="131.0" text="Team 1 - Mostafa Apu"/>
+        <ImageView fitHeight="46.0" fitWidth="48.0" layoutX="158.0" layoutY="317.0">
+            <image>
+                <Image url="@images/seatAvailable_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="46.0" fitWidth="48.0" layoutX="62.0" layoutY="165.0">
+            <image>
+                <Image url="@images/seatAvailable_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="46.0" fitWidth="48.0" layoutX="111.0" layoutY="165.0">
+            <image>
+                <Image url="@images/seatAvailable_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="46.0" fitWidth="48.0" layoutX="442.0" layoutY="165.0">
+            <image>
+                <Image url="@images/seatAvailable_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="46.0" fitWidth="48.0" layoutX="491.0" layoutY="165.0">
+            <image>
+                <Image url="@images/seatAvailable_image.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="46.0" fitWidth="48.0" layoutX="442.0" layoutY="266.0">
+            <image>
+                <Image url="@images/seatAvailable_image.png"/>
+            </image>
+        </ImageView>
+        <Label alignment="CENTER" layoutX="158.0" layoutY="3.0" prefHeight="17.0" prefWidth="266.0"
+               text="The Simpsons Movie | 4:00 P.M." textFill="#2064e4"/>
+    </children>
+</AnchorPane>
