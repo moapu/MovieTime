@@ -5,25 +5,18 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-/**
- * @author Brian Johnston <bjj5172@psu.edu>
- */
+public class TheaterHelper {
 
-public class TheaterHelper
-{
     private static FakeDataStorage _dataStorage = new FakeDataStorage();
 
-    // @author Mostafa Apu <mja5612@psu.edu>
-    // un-reserves a seat for a showing
     // SBI-05
-    public static void unReserveSeat(Showing showing, Seat seat)
-    {
+    // un-reserves a seat for a showing
+    public static void unReserveSeat(Showing showing, Seat seat) {
         _dataStorage.unReserveASeat(showing, seat);
     }
 
     // tests the methods
-    public static void main(String[] args) throws ParseException
-    {
+    public static void main(String[] args) throws ParseException {
         DateFormat _dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
         // to repeatedly use it
@@ -47,8 +40,7 @@ public class TheaterHelper
         // prints out all the available seats
         List<Seat> results = TheaterHelper.getOpenSeats(showingName);
         System.out.println("Available seats:");
-        for (Seat seat : results)
-        {
+        for (Seat seat : results) {
             System.out.println(seat.getRowNumber());
         }
 
@@ -56,32 +48,26 @@ public class TheaterHelper
         List<Seat> results2 = TheaterHelper.getAll(
                 new Theater("#3"));
         System.out.println("\nAll seats:");
-        for (Seat seat : results2)
-        {
+        for (Seat seat : results2) {
             System.out.println(seat.getRowNumber());
         }
     }
 
-    // @author Mostafa Apu <mja5612@psu.edu>
-    // reserves a seat for a showing
     // SBI-04
-    public static void reserveSeat(Showing showing, Seat seat)
-    {
+    // reserves a seat for a showing
+    public static void reserveSeat(Showing showing, Seat seat) {
         _dataStorage.reserveASeat(showing, seat);
     }
 
-    // @author Mostafa Apu <mja5612@psu.edu>
     // SBI-03
     // gets all the available seats
-    public static List<Seat> getOpenSeats(Showing showing)
-    {
+    public static List<Seat> getOpenSeats(Showing showing) {
         return _dataStorage.getAvailableSeats(showing);
     }
 
-    // @author Mostafa Apu <mja5612@psu.edu>
     // gets all the seats of a theater
-    public static List<Seat> getAll(Theater theater)
-    {
+    public static List<Seat> getAll(Theater theater) {
         return _dataStorage.getAllSeats(theater);
     }
+
 }

@@ -1,19 +1,15 @@
 package model;
-// @author Aleksandra Lee <ajl6251@psu.edu>
 
+public class Payment {
 
-// Select Payment Type
-public class Payment
-{
     private PaymentType _payment;
 
-    public Payment(PaymentType payment)
-    {
+    public Payment(PaymentType payment) {
         this._payment = payment;
     }
 
-    public PaymentType getPaymentType()
-    {
+    public PaymentType getPaymentType() {
         return _payment;
     }
+
 }

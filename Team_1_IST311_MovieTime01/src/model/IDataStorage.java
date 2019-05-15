@@ -3,12 +3,11 @@ package model;
 import java.util.List;
 
 /**
- * @author Mostafa Apu <mja5612@psu.edu>
  * all the interface methods
  */
 
-public interface IDataStorage
-{
+public interface IDataStorage {
+
     List<Movie> filterByTitle(String title);
 
     List<Movie> getAllMovies();
@@ -18,4 +17,5 @@ public interface IDataStorage
     List<Seat> getAvailableSeats(Showing showing);
 
     List<Seat> getAllSeats(Theater theater);
+
 }

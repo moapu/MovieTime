@@ -4,11 +4,9 @@ import java.util.Date;
 
 /**
  * Movie will be used to represent a single movie
- *
- * @author Phil O'Connell <pxo4@psu.edu>
  */
-public class Movie
-{
+public class Movie {
+
     // Title of the movie
     private String _title;
 
@@ -20,10 +18,8 @@ public class Movie
      *
      * @param title       the title of the movie
      * @param releaseDate the wide-release date
-     * @author Phil O'Connell <pxo4@psu.edu>
      */
-    public Movie(String title, Date releaseDate)
-    {
+    public Movie(String title, Date releaseDate) {
         this._title = title;
         this._releaseDate = releaseDate;
     }
@@ -32,10 +28,8 @@ public class Movie
      * Get the title of the movie
      *
      * @return the title of the Movie
-     * @author Phil O'Connell <pxo4@psu.edu>
      */
-    public String getTitle()
-    {
+    public String getTitle() {
         return _title;
     }
 
@@ -43,10 +37,8 @@ public class Movie
      * Set the title of the movie
      *
      * @param title the title of the Movie
-     * @author Phil O'Connell <pxo4@psu.edu>
      */
-    public void setTitle(String title)
-    {
+    public void setTitle(String title) {
         this._title = title;
     }
 
@@ -54,10 +46,8 @@ public class Movie
      * Get the release date
      *
      * @return the release date
-     * @author Phil O'Connell <pxo4@psu.edu>
      */
-    public Date getReleaseDate()
-    {
+    public Date getReleaseDate() {
         return _releaseDate;
     }
 
@@ -65,10 +55,8 @@ public class Movie
      * Set the release date
      *
      * @param releaseDate the release date of the movie
-     * @author Phil O'Connell <pxo4@psu.edu>
      */
-    public void setReleaseDate(Date releaseDate)
-    {
+    public void setReleaseDate(Date releaseDate) {
         this._releaseDate = releaseDate;
     }
 

@@ -4,13 +4,9 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-/**
- * @author PC
- */
-public class Main
-{
-    public static void main(String[] args) throws ParseException
-    {
+public class Main {
+
+    public static void main(String[] args) throws ParseException {
         DateFormat _dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
         Cart cart = new Cart();
@@ -22,4 +18,5 @@ public class Main
         //cart.remove(new Food(Food.FoodType.SODA), Food.FoodSize.S);
         CartHelper.checkout(cart, new Payment(PaymentType.CASH));
     }
+
 }
